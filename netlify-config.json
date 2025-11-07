@@ -1,0 +1,19 @@
+{
+  "name": "ibrahim-accounting-system",
+  "repo": {
+    "provider": "github",
+    "repo": "tamehad17-droid/555",
+    "branch": "main"
+  },
+  "build": {
+    "base": "frontend",
+    "command": "npm run build",
+    "publish": "dist",
+    "environment": {
+      "NODE_VERSION": "18",
+      "VITE_API_URL": "https://your-backend-url.com/api",
+      "VITE_SUPABASE_URL": "https://kyxbhmvxtudrvdbhpjbz.supabase.co",
+      "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt5eGJobXZ4dHVkcnZkYmhwamJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI1MTExODMsImV4cCI6MjA3ODA4NzE4M30.vN0ncKHWEWOa8wIhRu70bja5TpfDGbUJNLDbpuITn0A"
+    }
+  }
+}
