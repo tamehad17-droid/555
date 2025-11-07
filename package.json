@@ -1,0 +1,27 @@
+{
+  "name": "ibrahim-accounting-system",
+  "version": "1.0.0",
+  "description": "Ibrahim Accounting System - Complete multi-tenant accounting solution",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "migrate": "cd backend && npm run migrate",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "accounting",
+    "inventory",
+    "payroll",
+    "multi-tenant",
+    "erp"
+  ],
+  "author": "Ibrahim Accounting System",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
